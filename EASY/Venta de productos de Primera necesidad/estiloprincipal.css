@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+
+  }
+  p {
+    margin-bottom: 1px;
+  }
+header {
+  background: rgba(0,0,0,0.9);
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+.superior{
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  background-color: rgba(0,0,0,0.9);
+}
+
+nav {
+  float: left;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+}
+
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+nav ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background: #3ead47;
+}
+
+nav {
+  float: left; 
+}
+ 
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+}
+ 
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+ 
+nav ul li a {
+  display: block; 
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+ 
+nav ul li:hover {
+  background: gray;
+}
+.portada{
+    width: 100%;
+    top: 100%;
+    left: 10%;
+    z-index: 1;
+    position: absolute;
+}
+h1{
+    width: 50%;
+    color:black ;
+    z-index: -1;
+    position: absolute;
+    top: 20%;
+    left: 11%;
+    font-size: 150px;
+    font-family: 'Romanesco', cursive;
+    background-color:white;
+}
+.portada{
+  position: absolute;
+  z-index: -2;
+  top: 10%;
+}
+.imagenespresentacion{
+  display: block;
+  top: 85%;
+  left: 23%;
+  position: absolute;
+  z-index: -1;
+  border: black 4px solid;
+}
+
+.contenedor:hover .whatsapp {-webkit-transform:scale(1.3);transform:scale(1.3);
+
+}
+.contenedor {overflow:hidden
+
+}
+.contenedor:hover .facebook {-webkit-transform:scale(1.3);transform:scale(1.3);
+
+}
+.contenedor {overflow:hidden
+
+}
+.facebook{
+  position: fixed;
+  top: 0.5%;
+  left: 90%;
+  z-index: 2;
+  width: 3%;
+  
+}
+.whatsapp {
+  position: fixed;
+  top: 0.5%;
+  left: 80%;
+  z-index: 2;
+  width: 3.5%;
+}
+.separadoresdepag{
+  position: absolute;
+  top: 130%;
+  left: 30%;
+  width: 100%;
+  font-size: 50px;
+  
+}
+
